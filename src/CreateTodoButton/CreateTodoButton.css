@@ -1,0 +1,24 @@
+.btn {
+    font-size: 14px;
+    color: #fff;
+    /* background: linear-gradient(90deg, #ff9e16 0%, #fe4c01 100%); */
+    padding: 10px 30px;
+    border: none;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition: 667ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transition: 667ms;
+    padding: 10px 30px;
+    transform: translateY(-0px);
+    background: linear-gradient(90deg, #ff9e16 0%, #fe4c01 100%);
+    color: #ffffff;
+    border: none;
+}

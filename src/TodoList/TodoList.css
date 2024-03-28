@@ -1,0 +1,22 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    clear: both;
+}
+
+ul li {
+    background-color: #f2f2f2b8;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 0px 0px 10px 0px;
+    position: relative;
+}
+
+ul li span.delete {
+    float: right;
+    color: #fe4c01;
+    position: absolute;
+    top: 37%;
+    right: 6%;
+    font-weight: bold;
+}

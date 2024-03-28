@@ -1,0 +1,11 @@
+input {
+    float: right;
+    border-radius: 10px;
+    padding: 10px 15px;
+    border: 1px solid grey;
+    margin-bottom: 15px;
+}
+
+input:focus {
+    outline-color: #ff9e16
+}

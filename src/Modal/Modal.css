@@ -1,0 +1,50 @@
+#modal {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding: 0;
+    transition: background-color 0.5s;
+    background-color: transparent;
+}
+
+#modal span {
+    top: 15px;
+    right: 15px;
+    position: absolute;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#modal.opened {
+    background-color: #0000006e;
+    width: 100%;
+}
+
+#modal .modal-content {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 2;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    right: 0;
+    background-color: #acaba8;
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+}
+
+#modal.opened .modal-content {
+    width: 40%;
+}
